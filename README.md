@@ -1,4 +1,6 @@
 # stealthy-snail
+
+![bash-window](bash.jpeg)
 Credit to John Hammond of Huntress.  I followed his Try Hack Me room for log4j and replicated in my own virtual environment.
 
 ```https://tryhackme.com/room/solar```
